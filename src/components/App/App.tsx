@@ -39,6 +39,9 @@ export default function App() {
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
+    setEditedPost(null);
+    // setIsEditForm(!isEditForm);
+    // setIsCreateForm(!isCreateForm);
   };
   const toggleIsCreate = () => {
     setIsCreateForm(!isCreateForm);
